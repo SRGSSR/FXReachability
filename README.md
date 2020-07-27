@@ -31,7 +31,7 @@ FXReachability instances are designed to be accessed only from the main thread. 
 Installation
 ---------------
 
-To use FXReachability, just drag the class files into your project and add the SystemConfiguration framework to your build phases. FXReachability is a self-instantiating singleton, so there's no need to create an instance of it.
+Use [Swift Package Manager](https://swift.org/package-manager) directly [within Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app). You can also declare the library as a dependency of another one directly in the associated `Package.swift` manifest.
 
 
 Usage
